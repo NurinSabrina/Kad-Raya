@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('background.gif');
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+p{
+	font-size: 80%;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+</style>
+</head>
+<body>
+<div class="main">
+
+<h2 style = "text-align: center; color: white;">Selamat Hari Raya</h2>
+<hr>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+    <img src="selamat.gif" alt="selamat" style="width:100%">
+      <h3>Selamat</h3>
+      <p>Kak Kiah pergi ke pasar,</p>
+	  <p>Pergi ke pasar membeli cili,</p>
+	  <p>Tahun ini raya yang mudah,</p>
+	  <p>Duduk dirumah menjaga diri.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="hari.gif" alt="hari" style="width:100%">
+      <h3>Hari</h3>
+      <p>Merah warna bunga kemboja,</p>
+	  <p>Wangi selalu menjadi hairan,</p>
+	  <p>Kuih raya menghias meja,</p>
+	  <p>Mana satu jadi kegemaran?</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="raya.gif" alt="raya" style="width:100%">
+      <h3>Raya</h3>
+      <p>Tradisi disambung tak akan berakhir,</p>
+	  <p>Berzaman bertahun diamal semua,</p>
+	  <p>Keluarga duduk sesama bertakbir,</p>
+	  <p>Berbaju sedondon walau tak ke mana.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="aidil.gif" alt="aidil" style="width:100%">
+      <h3>AidilFitri</h3>
+      <p>Cari cahaya mengukur pedati,</p>
+	  <p>Tangan bermaya lambat dipadu,</p>
+	  <p>Rai raya syukur di hati,</p>
+	  <p>Hubungan maya pengubat rindu.</p>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <img src="syawal.gif" alt="syawal" style="width:100%">
+  <h3>Selamat Hari Raya Aidil Fitri </h3>
+  	  <p>Desa Permai diberi nama,</p>
+  	  <p>Penduduk mesra serta ramah,</p>
+	  <p>Syawal 2021 lebih sederhana,</p>
+	  <p>Unik meriah walau dirumah.</p>
+</div>
+</div>
+<audio controls autoplay>
+<source src = "l_raya.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
